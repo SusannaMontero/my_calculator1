@@ -12,7 +12,7 @@
 
         <body>
 
-                 <h1>Calculadora de Susana Montero</h1>
+                 <h1>Calculadora de susana Montero</h1>
 
                  Number:
 
@@ -20,9 +20,9 @@
 
                  <p>
 
-                         <button onclick="cube()"> x^3 </button>
+                         <button onclick="square()"> x^2 </button>
 
-                         <button onclick="sine()"> sin </button>
+                         <button onclick="cube()"> x^3 </button>
 
                  </p>
 
@@ -36,11 +36,11 @@
 
                          }
 
-                         function sine() {
+                         function square() {
 
                                   var num = document.getElementById("n1");
 
-                                  num.value = Math.sin(num.value);
+                                  num.value = Math.pow(num.value, 2);
 
                          }
 
